@@ -3,7 +3,7 @@
 namespace ClassLevelAttributes
 {
     [AttributeUsage(AttributeTargets.Class)]
-    sealed class UsefulClassMessageAttribute : Attribute
+    public sealed class UsefulClassMessageAttribute : Attribute
     {
         private string s;
 
